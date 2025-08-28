@@ -59,23 +59,64 @@
 // }
 
 
+// export default function Header() {
+//   return (
+//     <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md px-7 py-5">
+//       <div className="flex justify-between items-center">
+//         {/* Title on the left */}
+//         <h1 className="text-2xl font-bold text-gray-900">
+//           BR <span className="font-normal">Architects</span>
+//         </h1>
+
+//         {/* Navigation on the right */}
+//         <nav className="flex space-x-8 text-gray-700 font-medium">
+//           <a href="#projects" className="hover:text-black transition">Projects</a>
+//           <a href="#about" className="hover:text-black transition">About</a>
+//           <a href="#contact" className="hover:text-black transition">Contact</a>
+//         </nav>
+//       </div>
+//     </header>
+//   );
+// }
+
+import { useState } from "react";
+
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md px-7 py-5">
       <div className="flex justify-between items-center">
-        {/* Title on the left */}
+        {/* Title */}
         <h1 className="text-2xl font-bold text-gray-900">
           BR <span className="font-normal">Architects</span>
         </h1>
 
-        {/* Navigation on the right */}
-        <nav className="flex space-x-8 text-gray-700 font-medium">
+        {/* Desktop Nav */}
+        <nav className="hidden md:flex space-x-8 text-gray-700 font-medium">
           <a href="#projects" className="hover:text-black transition">Projects</a>
           <a href="#about" className="hover:text-black transition">About</a>
           <a href="#contact" className="hover:text-black transition">Contact</a>
         </nav>
+
+        {/* Mobile Menu Button */}
+        <button
+          className="md:hidden text-2xl text-gray-700"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+        >
+          ☰
+        </button>
       </div>
+
+      {/* Mobile Nav */}
+      {menuOpen && (
+        <nav className="md:hidden mt-4 flex flex-col space-y-4 text-gray-700 font-medium">
+          <a href="#projects" className="hover:text-black transition">Projects</a>
+          <a href="#about" className="hover:text-black transition">About</a>
+          <a href="#contact" className="hover:text-black transition">Contact</a>
+        </nav>
+      )}
     </header>
   );
 }
-
