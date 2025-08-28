@@ -32,7 +32,8 @@
 
 
 import { houseData } from "../data/HouseData";
-import Projectimg from "./Projectimg";
+import ProjectImage from "./ProjectImage";
+import Projectimg from "./ProjectImage";
 
 export default function Project() {
   return (
@@ -42,7 +43,7 @@ export default function Project() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 p-5">
         {houseData.map((house) => (
-          <Projectimg
+          <ProjectImage
             key={house.id}
             image={house.image}
             label={house.name}
