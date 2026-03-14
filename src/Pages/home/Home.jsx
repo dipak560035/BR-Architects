@@ -1,9 +1,5 @@
 
-// export default function Home() {
-//   return (
-//     <div className="p-5 grid grid-cols-[100px_100px_100px]
-//      grid-rows-[100px_100px] justify-center
-//      max-w-[600px] border-2">
+
     
     
     
