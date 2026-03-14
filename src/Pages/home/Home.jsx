@@ -4,8 +4,7 @@
     
     
     
-//     <div className=" bg-black"></div>
-//     <div className=" bg-amber-600"></div>
+
 //     <div className=" bg-blue-400"></div>
 //     <div className=" bg-amber-950"></div>
 //     <div className=" bg-pink-600"></div>
