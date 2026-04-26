@@ -3,7 +3,7 @@
 
 
 // export default function AboutSection()
-//   return 
+//   return
 
 //          <div className="px-7 my-15"
         
