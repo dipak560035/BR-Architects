@@ -7,7 +7,7 @@
     
 //          <div className="px-7 my-15">
         
-//         <div>
+//         <div
 //             <h1>About</h1>
 //          <hr className="my-4 text-gray-400" />
 //         </div>
