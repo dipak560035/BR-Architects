@@ -4,7 +4,7 @@
 
 // export default function AboutSection()
 //   return
-//          <div className="px-7 my-15
+//          <div className="px-7 my-1
         
 //         <div
 //             <h1>About</h1>
