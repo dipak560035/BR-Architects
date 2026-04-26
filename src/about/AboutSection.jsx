@@ -2,7 +2,7 @@
 // import Member from "./Member";
 
 
-// export default function AboutSection() 
+// export default function AboutSection()
 //   return 
 
 //          <div className="px-7 my-15"
