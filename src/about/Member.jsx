@@ -4,7 +4,7 @@
 //   return (
 //     <div
 //         <div
-//             <img src="https://www.w3schools.com/w3images/team2.jpg" alt="" /
+//             <img src="https://www.w3schools.com/w3images/team2.jpg" alt="" 
 //         </div>
 //         <div className="space-y-3">
 //             <h1>John Doe</h1>
