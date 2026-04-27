@@ -5,7 +5,7 @@
 //     <div
 //         <di
 //             <img src="https://www.w3schools.com/w3images/team2.jpg" alt="" 
-//         </div>
+//         </div
 //         <div className="space-y-3">
 //             <h1>John Doe</h1>
 //             <p className="text-gray-500">CEO & FOUNDER</p>
