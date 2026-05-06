@@ -1,11 +1,4 @@
-// export default function Contact() {
-//   return (
-//     <section className="px-6 py-12 bg-white">
-//       <h1 className="">Contact</h1>
-//       <hr className="my-4 text-gray-400" />
-//       <p className="text-black font-medium mb-8">
-//         Let's get in touch and talk about your next project.
-//       </p>
+// ex
 
 //       <form className="grid grid-cols-1 gap-6 w-full">
 //         <input
