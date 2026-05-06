@@ -1,12 +1,4 @@
 
-
-//       </form>
-//     </section>
-//   )
-// }
-
-
-
 export default function Contact() {
   return (
     <section id="contact" className="scroll-mt-24 px-6 py-12 bg-white">
