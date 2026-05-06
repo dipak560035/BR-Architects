@@ -1,9 +1,5 @@
 
 
-//   className="bg-black text-white text-sm font-medium w-24 py-1 rounded hover:bg-gray-800 transition duration-200"
-// >
-//   Send
-// </button>
 //       </form>
 //     </section>
 //   )
