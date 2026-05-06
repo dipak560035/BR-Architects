@@ -1,9 +1,5 @@
 // ex
-
-//         <input
-//           type="email"
-//           placeholder="Email"
-//           className="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black"
+focus:ring-2 focus:ring-black"
 //         />
 //         <input
 //           type="text"
