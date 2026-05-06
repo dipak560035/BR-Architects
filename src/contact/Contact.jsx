@@ -1,8 +1,5 @@
 
-
-//           rows="5"
-//           placeholder="Message"
-//           className="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black resize-none"
+  className="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black resize-none"
 //         ></textarea>
 //         <button
 //   type="submit"
