@@ -1,6 +1,5 @@
 // ex
-focus:ring-2 focus:ring-black"
-//         />
+focus:ring-2 focus
 //         <input
 //           type="text"
 //           placeholder="Subject"
