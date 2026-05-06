@@ -1,11 +1,5 @@
 // ex
 
-//       <form className="grid grid-cols-1 gap-6 w-full">
-//         <input
-//           type="text"
-//           placeholder="Name"
-//           className="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black"
-//         />
 //         <input
 //           type="email"
 //           placeholder="Email"
