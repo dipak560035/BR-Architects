@@ -1,8 +1,6 @@
 
 //           type="text"
-//           placeholder="Subject"
-//           className="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black"
-//         />
+//
 //         <textarea
 //           rows="5"
 //           placeholder="Message"
