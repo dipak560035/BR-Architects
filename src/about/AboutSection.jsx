@@ -5,18 +5,7 @@ import Member from "./Member";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="scroll-mt-24 px-7 my-15">
-      <div>
-  
-        <hr className="my-4 text-gray-400" />
-      </div>
 
-      <div className="space-y-10">
-       
-      </div>
-
-  
-    </section>
   );
 }
 
