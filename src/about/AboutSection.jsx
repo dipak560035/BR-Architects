@@ -7,7 +7,7 @@ export default function AboutSection() {
   return (
     <section id="about" className="scroll-mt-24 px-7 my-15">
       <div>
-        <h1 className="text-2xl font-bold text-gray-900">About</h1>
+  
         <hr className="my-4 text-gray-400" />
       </div>
 
